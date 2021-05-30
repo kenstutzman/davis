@@ -1,7 +1,7 @@
 from pyvantagepro import VantagePro2
 
 print("pyvantagepro")
-device = VantagePro2.from_url('tcp:192.168.1.34:22222')
+device = VantagePro2.from_url('tcp:64.93.117.26:22222')
 print("connected to device!")
 #print(device.gettime())
 #print("done with gettime()")
