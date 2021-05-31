@@ -7,6 +7,6 @@ print("connected to device!")
 #print("done with gettime()")
 data = device.get_current_data()
 #print(data)
-print("TempIn,HumIn,TempOut,HumOut,BarTrend,Barometer,RainDay,RainYear,WindSpeed,WindSpeed10Min,WindDir")
-print(data['TempIn'],data['HumIn'],data['TempOut'],data['HumOut'],data['BarTrend'],data['Barometer'],data['RainDay'],data['RainYear'],data['WindSpeed'],data['WindSpeed10Min'],data['WindDir'])
+print("Datetime,TempIn,HumIn,TempOut,HumOut,BarTrend,Barometer,RainDay,RainYear,WindSpeed,WindSpeed10Min,WindDir")
+print(data['Datetime'],data['TempIn'],data['HumIn'],data['TempOut'],data['HumOut'],data['BarTrend'],data['Barometer'],data['RainDay'],data['RainYear'],data['WindSpeed'],data['WindSpeed10Min'],data['WindDir'])
 #Datetime,BarTrend,Barometer,TempIn,HumIn,TempOut,WindSpeed,WindSpeed10Min,WindDir,HumOut,RainRate,UV,SolarRad,RainStorm,StormStartDate,RainDay,RainMonth,RainYear,ETDay,ETMonth,ETYear,BatteryStatus,BatteryVolts,ForecastIcon,ForecastRuleNo,SunRise,SunSet
