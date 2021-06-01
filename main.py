@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# pip install pyvantagepro
+
 from pyvantagepro import VantagePro2
 
 print("pyvantagepro")
